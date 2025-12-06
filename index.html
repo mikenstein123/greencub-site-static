@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>GreenCub - Eco-friendly Colouring Books for Kids</title>
+    <meta
+      name="description"
+      content="GreenCub creates eco-friendly digital colouring books for kids in India. Print at home, keep them happily busy, and help plant real trees."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="header">
+        <div class="logo">
+          <span class="logo-green">Green</span>Cub
+        </div>
+        <nav class="nav">
+          <a href="#shop">Shop</a>
+          <a href="#mission">Our Mission</a>
+          <a href="#free">Free Printables</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <section class="hero">
+        <h1>
+          Colour. Play. Grow with <span class="highlight">GreenCub</span> 🌱
+        </h1>
+        <p class="hero-text">
+          Eco-friendly digital colouring books for kids aged 3–10. Print at
+          home, keep them happily busy, and help us plant real trees across
+          India.
+        </p>
+        <div class="hero-buttons">
+          <a href="#shop" class="btn btn-primary">Browse Colouring Books</a>
+          <a href="#free" class="btn btn-outline">Download Free Sample</a>
+        </div>
+      </section>
+
+      <section id="shop" class="section">
+        <h2>Colouring Books</h2>
+        <p class="section-text">
+          Soon you&apos;ll see all your GreenCub books listed here.
+        </p>
+        <div class="grid">
+          <div class="card">
+            <h3>Jungle Friends (Ages 3–6)</h3>
+            <p>
+              25 fun, simple animal illustrations made for tiny hands and big
+              imaginations.
+            </p>
+            <p class="price">₹250 • Digital PDF</p>
+            <button class="btn btn-primary" disabled>Buy (coming soon)</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="mission" class="section">
+        <h2>One Tree for Every ₹1,000</h2>
+        <p>
+          For every ₹1,000 GreenCub earns, we plant one real sapling. Your
+          child gets to colour and create — and together, we grow a greener
+          India.
+        </p>
+        <p class="italic">
+          Tree counter:
+          <span class="bold">0 trees planted</span> (tracking starts after
+          launch!)
+        </p>
+      </section>
+
+      <section id="free" class="section">
+        <h2>Free Sample Pack</h2>
+        <p>
+          Enter your email below and we&apos;ll send you a free 5-page GreenCub
+          colouring mini-pack. Perfect to test with your child.
+        </p>
+        <form class="form">
+          <input
+            type="email"
+            placeholder="Your email address"
+            class="input"
+          />
+          <button type="button" class="btn btn-primary">
+            Get Free Pack
+          </button>
+        </form>
+        <p class="note">
+          (We&apos;ll wire this up later so it actually sends the PDF.)
+        </p>
+      </section>
+
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Questions, collaborations, or feedback? Drop us a message:</p>
+        <p>
+          Email: <span class="mono">hello@greencub.in</span><br />
+          WhatsApp: <span class="mono">+91-XXXXXXXXXX</span>
+        </p>
+      </section>
+
+      <footer class="footer">
+        © <span id="year"></span> GreenCub. Made with 🌱 in India.
+      </footer>
+    </main>
+
+    <script>
+      document.getElementById("year").textContent =
+        new Date().getFullYear().toString();
+    </script>
+  </body>
+</html>
